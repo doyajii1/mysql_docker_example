@@ -20,6 +20,6 @@ starts mysql docker image while mounting pre-initialized database directory
 
 stops mysql container
 
-## How to check if predefined database
+## How to check predefined database
 
 docker run -it --rm --link mysql mariadb:latest mysql -hmysql -uroot -proot myexample -e "select \* from mytable;"
