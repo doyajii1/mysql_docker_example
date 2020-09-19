@@ -20,6 +20,10 @@ starts mysql docker image while mounting pre-initialized database directory
 
 stops mysql container
 
+### define charset
+
+charset is defined at 'charset.cnf' file
+
 ## How to check predefined database
 
 docker run -it --rm --link mysql mariadb:latest mysql -hmysql -uroot -proot myexample -e "select \* from mytable;"
