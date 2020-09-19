@@ -14,13 +14,20 @@ change the root password on the Dockerfile.
 
 ### `./run.sh`
 
-starts mysql docker image while mounting pre-initialized database directory
+starts mysql docker image while mounting pre-initialized database directory.
+change the root password on the Dockerfile.
 
 ### `./stop.sh`
 
 stops mysql container
 
-### define charset
+## Define examples
+
+### Define prepopulated database
+
+setup.sql included script to prepopulate database
+
+### Define charset
 
 charset is defined at 'charset.cnf' file
 
