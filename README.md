@@ -33,4 +33,8 @@ charset is defined at 'charset.cnf' file
 
 ## How to check predefined database
 
-docker run -it --rm --link mysql mariadb:latest mysql -hmysql -uroot -proot myexample -e "select \* from mytable;"
+`docker run -it --rm --link mysql mariadb:latest mysql -hmysql -uroot -proot myexample -e "select \* from mytable;"`
+
+## How to access mysql through terminal
+
+`mysql -h localhost -P 3306 --protocol=tcp -u root`
